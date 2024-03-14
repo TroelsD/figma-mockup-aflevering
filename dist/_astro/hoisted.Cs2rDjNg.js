@@ -1,1 +1,0 @@
-import"./hoisted.8wP_OhgD.js";const i=document.querySelectorAll(".quest button");function r(){const t=this.getAttribute("aria-expanded");for(let e=0;e<i.length;e++)i[e].setAttribute("aria-expanded","false");t=="false"&&this.setAttribute("aria-expanded","true")}i.forEach(t=>t.addEventListener("click",r));

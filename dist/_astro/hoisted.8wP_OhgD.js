@@ -1,1 +1,0 @@
-let l=document.querySelector("#menu-icon"),o=document.querySelector(".navbar");l.onclick=()=>{l.classList.toggle("bx-x"),o.classList.toggle("active")};window.addEventListener("scroll",function(){var e=document.querySelector("header");window.scrollY>0?e.classList.add("scroll-down"):e.classList.remove("scroll-down")});
